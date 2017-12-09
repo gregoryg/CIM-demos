@@ -1,5 +1,5 @@
 #!/bin/bash
-# [[file:~/projects/cloudera-demos/CIM-demos/README.org::*Set%20up%20basics%20of%20environment][Set up basics of environment:1]]
+# [[file:~/projects/cloudera-demos/personalrepo-CIM-demos/README.org::*Set%20up%20basics%20of%20environment][Set up basics of environment:1]]
 USER='gregj'
 sudo yum -y install epel-release
 sudo yum -y install python-pip wget curl telnet finger mlocate jq htop net-tools git

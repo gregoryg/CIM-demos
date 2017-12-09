@@ -1,4 +1,4 @@
--- [[file:~/projects/cloudera-demos/CIM-demos/README.org::*NYC%20Taxi%20and%20Uber][NYC Taxi and Uber:1]]
+-- [[file:~/projects/cloudera-demos/personalrepo-CIM-demos/README.org::*NYC%20Taxi%20and%20Uber][NYC Taxi and Uber:1]]
 CREATE DATABASE IF NOT EXISTS nyctaxi;
 USE nyctaxi;
 

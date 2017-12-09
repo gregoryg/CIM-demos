@@ -1,4 +1,4 @@
--- [[file:~/projects/cloudera-demos/CIM-demos/README.org::*Utility%20data][Utility data:1]]
+-- [[file:~/projects/cloudera-demos/personalrepo-CIM-demos/README.org::*Utility%20data][Utility data:1]]
 create database IF NOT EXISTS utility;
 use utility;
 

@@ -5,13 +5,13 @@ USERDIR='/user/gregj/'
 ##  2. Do the same for the Utility data set
 ##  3. Set up Data Journey demo (retail dataset)
 echo Setting up Bay Area Bikeshare
-impala-shell --var=USERDIR=${USERDIR} -f 99-setup-bay-area-bicycle-share.sql
+impala-shell --var=USERDIR=${USERDIR} -f impala/99-setup-bay-area-bicycle-share.sql
 
 echo Setting up Hive Benchmark data sets
-impala-shell --var=USERDIR=${USERDIR} -f 99-setup-hive-benchmark.sql
+impala-shell --var=USERDIR=${USERDIR} -f impala/99-setup-hive-benchmark.sql
 
 echo Setting up the Utility data sets
-impala-shell --var=USERDIR=${USERDIR} -f 99-setup-utility.sql
+impala-shell --var=USERDIR=${USERDIR} -f impala/99-setup-utility.sql
 
 echo Setting up the Data Journey data sets
 

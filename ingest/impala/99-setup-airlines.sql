@@ -1,4 +1,4 @@
--- [[file:~/projects/cloudera-demos/CIM-demos/README.org::*Airlines%20dataset][Airlines dataset:1]]
+-- [[file:~/projects/cloudera-demos/personalrepo-CIM-demos/README.org::*Airlines%20dataset][Airlines dataset:1]]
 create database if not exists airlines;
 use airlines;
 

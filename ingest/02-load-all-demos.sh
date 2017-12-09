@@ -13,6 +13,8 @@ impala-shell --var=USERDIR=${USERDIR} -f impala/99-setup-hive-benchmark.sql
 echo Setting up the Utility data sets
 impala-shell --var=USERDIR=${USERDIR} -f impala/99-setup-utility.sql
 
+echo Setting up NYC Taxi/Uber raw data
+impala-shell --var=USERDIR=${USERDIR} -f impala/99-setup-nyc-taxi.sql
 echo Setting up the Data Journey data sets
 
 echo "CREATE DATABASE IF NOT EXISTS retailer LOCATION 's3a://gregoryg/database/retailer/';" | tee impala/99-setup-data-journey.sql

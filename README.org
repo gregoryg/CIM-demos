@@ -12,9 +12,27 @@
 #+CREATOR: Emacs 25.3.1 (Org mode 9.1.3)
 #+SETUPFILE: https://raw.githubusercontent.com/fniessen/org-html-themes/master/setup/theme-readtheorg.setup
 
+* Overview
+
+  Bring up clusters with Cloudera Director.  Modify the Director template for your needs
+  [[file:director/aws/cdsw/][here]].  The template includes configuration to use Hue Notebooks.
+
+  
+
+
 * CIM-demos
   Demos Created by Cloud and Infrastructure SE Specialization
 
+  Datasets loaded up include
+** [[Retail Data Journey][Retail Data Journey]]
+
+   Dataset is loaded into the Hive/Impala =retailer= database
+
+   Hue notebook included
+
+   Tableau workbook included
+
+** [[BABS - Bay Area Bikeshare]]
 ** Environment and database Setup for demos
  SET UP User for cluster (usually =centos= or =gregj=)
 
@@ -131,7 +149,7 @@
  The =retailer= database is created in  =02-load-all-demos.sh= 
 
  Hue notebook: [[file:notebooks/hue/Data Journey - Retail.json][Data Journey - Retail]]
-**** BABS - Bay Area Bike Share dataset
+**** BABS - Bay Area Bikeshare
      Hue notebook: [[file:notebooks/hue/Bay Area BikeShare.json][Bay Area BikeShare notebook]]
 
      Raw data:  s3a://gregoryg/babs

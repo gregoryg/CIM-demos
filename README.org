@@ -18,8 +18,6 @@
   [[file:director/aws/cdsw/][here]].  The template includes configuration to use Hue Notebooks.
 
   
-
-
 * CIM-demos
   Demos Created by Cloud and Infrastructure SE Specialization
 

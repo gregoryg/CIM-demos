@@ -17,7 +17,6 @@
   Bring up clusters with Cloudera Director.  Modify the Director template for your needs
   [[file:director/aws/cdsw/][here]].  The template includes configuration to use Hue Notebooks.
 
-  
 * CIM-demos
   Demos Created by Cloud and Infrastructure SE Specialization
 
@@ -42,6 +41,10 @@
 
 
 *** Scripts to run
+
+Scripts reside in the [[file:ingest/][ingest]] directory
+
+
 **** Set up basics of environment
  #+BEGIN_SRC sh :shebang "#!/bin/bash" :results none :tangle ingest/01-setup-environment.sh :comments link :var USER=variables-table[2,1]
    sudo yum -y install epel-release

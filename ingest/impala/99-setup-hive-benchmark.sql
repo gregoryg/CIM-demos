@@ -1,4 +1,3 @@
--- [[file:~/projects/cloudera-demos/personalrepo-CIM-demos/README.org::*Hive%20benchmark%20dataset%20with%20User%20visits%20and%20website%20rankings][Hive benchmark dataset with User visits and website rankings:1]]
 -- LOCATION $sudouser
 create database hivebench;
 
@@ -33,4 +32,3 @@ create external table uservisits_raw
 create table uservisits stored as parquet as select * FROM uservisits_raw;
 
 create table rankings stored as parquet as select * FROM rankings_raw;
--- Hive benchmark dataset with User visits and website rankings:1 ends here

@@ -1,5 +1,4 @@
 #!/bin/bash
-# [[file:~/projects/cloudera-demos/personalrepo-CIM-demos/README.org::*Set%20up%20basics%20of%20environment][Set up basics of environment:1]]
 USER='gregj'
 sudo yum -y install epel-release
 sudo yum -y install python-pip wget curl telnet finger mlocate jq htop net-tools git
@@ -45,8 +44,11 @@ echo "To run beeline without parameters, use 'beeline -r'"
 echo "Fixing up .bashrc"
 sudo yum -y install cowsay fortune-mod
 tee -a ~/.bashrc <<EOF
-export PS1='\u@gateway: \w #$ '
+export PS1='\u@aws-gateway: \w #$ '
 if [[ \$- =~ "i" ]] ; then
+    export cmhost="${cmhost}"
+    export clustername="${clustername}"
+    echo "CM API for cluster ${clustername} at http://${cmhost}:7180/api/v18/"
     # echo "Streamsets URL: http://`hostname -f`:18630/"
     # echo "Jupyter notebook URL: http://`hostname -f`:8880"
     # echo "RStudio URL: http://`hostname -f`:8787"
@@ -68,4 +70,3 @@ then
 fi
 EOF
 chmod 755 ~/bin/cowme
-# Set up basics of environment:1 ends here

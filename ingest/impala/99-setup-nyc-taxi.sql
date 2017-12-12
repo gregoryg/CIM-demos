@@ -1,4 +1,3 @@
--- [[file:~/projects/cloudera-demos/personalrepo-CIM-demos/README.org::*NYC%20Taxi%20and%20Uber][NYC Taxi and Uber:1]]
 CREATE DATABASE IF NOT EXISTS nyctaxi;
 USE nyctaxi;
 
@@ -330,4 +329,3 @@ CREATE TABLE IF NOT EXISTS central_park_weather_observations STORED AS PARQUET A
 -- );
 
 -- CREATE UNIQUE INDEX index_weather_observations ON central_park_weather_observations (date);
--- NYC Taxi and Uber:1 ends here

@@ -1,4 +1,3 @@
--- [[file:~/projects/cloudera-demos/personalrepo-CIM-demos/README.org::*BABS%20-%20Bay%20Area%20Bikeshare][BABS - Bay Area Bikeshare:2]]
 -- can be run as Impala
 -- Bay Area Bicycle Share (BABS) dataset
   CREATE DATABASE IF NOT EXISTS bikeshare;
@@ -159,4 +158,3 @@
      CAST(wind_dir_degrees AS INT) AS wind_dir_degrees,
      zip
      FROM bikeshare.weather_raw;
--- BABS - Bay Area Bikeshare:2 ends here

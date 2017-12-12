@@ -1,4 +1,3 @@
--- [[file:~/projects/cloudera-demos/personalrepo-CIM-demos/README.org::*Airlines%20dataset][Airlines dataset:1]]
 create database if not exists airlines;
 use airlines;
 
@@ -39,4 +38,3 @@ AS select * FROM airlines.airlines;
 create table if not exists default.airports
 STORED AS PARQUET
 AS select * FROM airlines.airports;
--- Airlines dataset:1 ends here

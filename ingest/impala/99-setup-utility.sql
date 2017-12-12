@@ -1,4 +1,3 @@
--- [[file:~/projects/cloudera-demos/personalrepo-CIM-demos/README.org::*Utility%20data][Utility data:1]]
 create database IF NOT EXISTS utility;
 use utility;
 
@@ -108,4 +107,3 @@ CREATE TABLE IF NOT EXISTS register STORED AS PARQUET
 CREATE TABLE IF NOT EXISTS weather STORED AS PARQUET
        AS SELECT * FROM weather_raw
        WHERE AmbientDate <> 'AmbientDate';
--- Utility data:1 ends here

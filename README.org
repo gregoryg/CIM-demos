@@ -49,7 +49,7 @@ Scripts reside in the [[file:ingest/][ingest]] directory
 
 * Datasets loaded by the above scripts
 
-** [[Retail Data Journey][Retail Data Journey]]
+** Retail Data Journey
 
    Dataset is loaded into the Hive/Impala =retailer= database
 
@@ -57,7 +57,7 @@ Scripts reside in the [[file:ingest/][ingest]] directory
 
    [[file:notebooks/tableau/Data Journey Retail.twb][Data Journey - Retail]] Tableau workbook
 
-** [[BABS - Bay Area Bikeshare]]
+** BABS - Bay Area Bikeshare
 
    This demo follows this blog post: [[http://gethue.com/bay-area-bike-share-data-analysis-with-spark-notebook-part-2/][Bay Area bike share analysis with the Hadoop Notebook and Spark & SQL]]
 

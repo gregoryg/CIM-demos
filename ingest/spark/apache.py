@@ -1,7 +1,6 @@
 import re
 from pyspark.sql import Row
 
-log_pattern =                '^(\S+) (\S+) (\S+) \[([^\]]+)\] "(.*)" (\d+) (\S+) "(.*)"$'
 log_pattern = '^([a-zA-Z]\S+ )?(\S+) (\S+) (\S+) \[([^\]]+)\] "(.*)" (\d+) (\S+) "(.*)"$'
 def parse_apache_log_line(logline):
     match = re.search(log_pattern, logline)

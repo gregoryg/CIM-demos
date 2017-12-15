@@ -1,8 +1,8 @@
 #!/bin/bash
 # prep Centos 7.x for use as server with AWS Cloud9
 
-sudo yum erase cloudera-data-science-workbench
-sudo yum autoremove
+sudo yum -y erase cloudera-data-science-workbench
+sudo yum -y autoremove
 sudo yum -y install epel-release
 sudo yum -y update
 sudo yum -y install gcc gcc-c++ make tmux ncurses-devel mlocate docker git jq

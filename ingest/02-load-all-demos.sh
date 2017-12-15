@@ -20,6 +20,9 @@ impala-shell -f impala/99-setup-data-journey.sql
 echo Setting up NYC Taxi/Uber raw data
 impala-shell --var=USERDIR=${USERDIR} -f impala/99-setup-nyc-taxi.sql
 
+echo Setting up Big Cities Health Coalition
+impala-shell --var=USERDIR=${USERDIR} -f impala/99-setup-bchc.sql
+
 echo Setting up Hive Benchmark data sets
 impala-shell --var=USERDIR=${USERDIR} -f impala/99-setup-hive-benchmark.sql
 

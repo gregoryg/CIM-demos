@@ -1,5 +1,4 @@
 #!/bin/bash
-USER='gregj'
 sudo yum -y install epel-release
 sudo yum -y install python-pip wget curl telnet finger mlocate jq htop net-tools git
 sudo pip install cm-api

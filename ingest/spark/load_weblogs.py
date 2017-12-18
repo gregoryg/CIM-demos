@@ -1,4 +1,6 @@
 from apache import parse_apache_log_line
+# mydf = spark.read.text(....)
+# create RDD first so we can map our function
 myfile = (sc.textFile("s3a://gregoryg/datasets/apache2").map(parse_apache_log_line))
 
 mydf = sqlContext.createDataFrame(myfile)

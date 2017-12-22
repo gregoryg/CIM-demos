@@ -10,8 +10,8 @@
     <datasource caption='order_items (retailer.order_items)+ (retailer)' inline='true' name='federated.1sjnj8o13wcvfg1d9uoik1qqc819' version='10.3'>
       <connection class='federated'>
         <named-connections>
-          <named-connection caption='35.184.170.133' name='hadoophive.0jnnrcf07urybk17n6cwt1v5m6h8'>
-            <connection authentication='no' authentication-type='0' class='hadoophive' connection-type='Impala' dbname='' odbc-connect-string-extras='' one-time-sql='' port='21050' schema='retailer' server='35.194.33.92' sslcert='' sslmode='' transport-type='0' username=''>
+          <named-connection caption='104.198.57.233' name='hadoophive.0jnnrcf07urybk17n6cwt1v5m6h8'>
+            <connection authentication='no' authentication-type='0' class='hadoophive' connection-type='Impala' dbname='' odbc-connect-string-extras='' one-time-sql='' port='21050' schema='retailer' server='104.198.57.233' sslcert='' sslmode='' transport-type='0' username=''>
               <connection-customization class='hadoophive' enabled='false' version='10.3'>
                 <vendor name='hadoophive' />
                 <driver name='hadoophive' />

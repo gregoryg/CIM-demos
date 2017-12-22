@@ -10,8 +10,8 @@
     <datasource caption='healthstats (bchc.healthstats) (bchc)' inline='true' name='federated.0ngnaht16o5z86153slga0mvgpgk' version='10.3'>
       <connection class='federated'>
         <named-connections>
-          <named-connection caption='18.218.12.229' name='hadoophive.16px4kw1aqd9oa11xa2hc0twxhz9'>
-            <connection authentication='no' authentication-type='0' class='hadoophive' connection-type='Impala' dbname='' odbc-connect-string-extras='' one-time-sql='' port='21050' schema='bchc' server='18.218.12.229' sslcert='' sslmode='' transport-type='0' username=''>
+          <named-connection caption='104.198.57.233' name='hadoophive.16px4kw1aqd9oa11xa2hc0twxhz9'>
+            <connection authentication='no' authentication-type='0' class='hadoophive' connection-type='Impala' dbname='' odbc-connect-string-extras='' one-time-sql='' port='21050' schema='bchc' server='104.198.57.233' sslcert='' sslmode='' transport-type='0' username=''>
               <connection-customization class='hadoophive' enabled='false' version='10.3'>
                 <vendor name='hadoophive' />
                 <driver name='hadoophive' />

@@ -17,6 +17,9 @@ do
 done
 impala-shell -f impala/99-setup-data-journey.sql
 
+echo 'Setting up Airlines (used in CDSW demo)'
+impala-shell -f impala/99-setup-airlines.sql
+
 echo Setting up NYC Taxi/Uber raw data
 impala-shell --var=USERDIR=${USERDIR} -f impala/99-setup-nyc-taxi.sql
 
